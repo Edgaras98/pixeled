@@ -5,11 +5,11 @@ interface LayoutProps {
 };
 
 const AuthenticationLayout = ({ children }: LayoutProps) => {
-  return (
-  <main className='authentication'>
-      {children}
-    </main>
-  );
-}
+    return (
+        <main className='authentication'>
+            {children}
+        </main>
+    );
+};
 
 export default AuthenticationLayout;
