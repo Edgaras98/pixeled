@@ -3,7 +3,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { navLinks } from '../../../constants';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import { Button } from '../../ui/button';
 import NavLinks from './NavLinks';
